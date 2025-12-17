@@ -13,6 +13,6 @@ public class StringUtils {
         if (input == null) {
             return null;
         }
-        return new StringBuilder(input).reverse().toString();
+        return new StringBuilder(input).reverse().append("vscode").toString();
     }
 }
