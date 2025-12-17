@@ -25,7 +25,7 @@ public class StringReverser extends AbstractMediator {
         }
         
         // Reverse the input string using StringBuilder
-        String reversed = new StringBuilder(input).reverse().toString();
+        String reversed = StringUtils.reverse(input);
         
         // Set the reversed string in the message context
         messageContext.setProperty("reversedString", reversed);
